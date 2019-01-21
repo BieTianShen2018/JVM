@@ -18,7 +18,7 @@ public class MyClass {
 class Singleton{
     private static Singleton singleton = new Singleton();
     public static int value1;
-    public static int value2 = 22;
+    public static int value2 = 0;
 
     private Singleton(){
         value1++;
@@ -33,7 +33,7 @@ class Singleton{
 
 class Singleton2{
     public static int value1;
-    public static int value2 = 44;
+    public static int value2 = 0;
     private static Singleton2 singleton2 = new Singleton2();
 
     private Singleton2(){
